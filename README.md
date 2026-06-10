@@ -129,8 +129,7 @@ Only 267 delivered orders were recorded in 2016 versus 43,000+ in 2017. Includin
 ├── etl/
 │   └── etl_olist_star_schema.py       # Glue ETL job
 ├── sql/
-│   ├── validation_queries.sql         # Athena validation queries
-│   └── segmentation_analysis.sql      # Customer segmentation logic
+│   └── validation_queries.sql         # Athena validation and segmentation queries
 ├── powerbi/
 │   └── olist_theme.json               # Custom Power BI theme (#1F3864 / #E8622A)
 ├── screenshots/
