@@ -1,0 +1,107 @@
+{
+  "name": "Olist Analytics Theme",
+  "dataColors": [
+    "#E8622A",
+    "#1F3864",
+    "#2E75B6",
+    "#F4A460",
+    "#A9C4E4",
+    "#C45911",
+    "#4472C4",
+    "#ED7D31"
+  ],
+  "background": "#F5F7FA",
+  "foreground": "#1F3864",
+  "tableAccent": "#E8622A",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "fontFamily": [{ "value": "Segoe UI" }],
+        "background": [{ "color": { "solid": { "color": "#FFFFFF" } } }]
+      }
+    },
+    "card": {
+      "*": {
+        "calloutValue": [{
+          "fontSize": 28,
+          "fontBold": true,
+          "color": { "solid": { "color": "#E8622A" } }
+        }],
+        "label": [{
+          "fontSize": 11,
+          "color": { "solid": { "color": "#666666" } }
+        }],
+        "background": [{
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 0
+        }],
+        "border": [{
+          "show": true,
+          "color": { "solid": { "color": "#1F3864" } },
+          "radius": 4
+        }]
+      }
+    },
+    "barChart": {
+      "*": {
+        "dataPoint": [{
+          "defaultColor": { "solid": { "color": "#1F3864" } }
+        }],
+        "categoryAxis": [{
+          "labelColor": { "solid": { "color": "#1F3864" } },
+          "fontSize": 10
+        }],
+        "valueAxis": [{
+          "labelColor": { "solid": { "color": "#666666" } },
+          "fontSize": 10
+        }],
+        "title": [{
+          "fontColor": { "solid": { "color": "#1F3864" } },
+          "fontSize": 12,
+          "fontBold": true
+        }],
+        "background": [{
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 0
+        }]
+      }
+    },
+    "scatterChart": {
+      "*": {
+        "dataPoint": [{
+          "defaultColor": { "solid": { "color": "#E8622A" } }
+        }],
+        "categoryAxis": [{
+          "labelColor": { "solid": { "color": "#1F3864" } },
+          "fontSize": 10
+        }],
+        "valueAxis": [{
+          "labelColor": { "solid": { "color": "#666666" } },
+          "fontSize": 10
+        }],
+        "title": [{
+          "fontColor": { "solid": { "color": "#1F3864" } },
+          "fontSize": 12,
+          "fontBold": true
+        }],
+        "background": [{
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 0
+        }]
+      }
+    },
+    "map": {
+      "*": {
+        "title": [{
+          "fontColor": { "solid": { "color": "#1F3864" } },
+          "fontSize": 12,
+          "fontBold": true
+        }],
+        "background": [{
+          "color": { "solid": { "color": "#FFFFFF" } },
+          "transparency": 0
+        }]
+      }
+    }
+  }
+}
